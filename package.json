@@ -1,0 +1,22 @@
+{
+    "name": "hackerrank-challenge-workbench",
+    "version": "0.0.1-0",
+    "description": "Workbench for resolving hackerrank.com challenges with unit testing and profilling",
+    "main": "workbench.supervisor.js",
+    "scripts": {
+        "test": "node node_modules/jest/bin/jest.js workbench.test.js",
+        "report": "node workbench.report.js",
+        "supervisor": "node workbench.supervisor.js"
+    },
+    "keywords": [
+        "hackerhank"
+    ],
+    "author": "al-lopes <alexandre@alexandrelopes.design>",
+    "license": "ISC",
+    "devDependencies": {
+        "chalk": "^2.3.2",
+        "gaze": "^1.1.2",
+        "jest": "^22.4.2",
+        "sympact": "0.0.3"
+    }
+}
