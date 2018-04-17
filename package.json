@@ -16,7 +16,7 @@
     "devDependencies": {
         "chalk": "^2.3.2",
         "gaze": "^1.1.2",
-        "jest": "^22.4.2",
-        "sympact": "0.0.3"
-    }
+        "jest": "^22.4.2"
+    },
+    "dependencies": {}
 }
