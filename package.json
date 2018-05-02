@@ -1,0 +1,38 @@
+{
+  "name": "typescript-gist-workbench",
+  "version": "0.0.1-1",
+  "description": "Workbench for unit testing and profilling typescript and javascript gists.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "supervisor": "node workbench.dist/workbench.supervisor.js --color",
+    "profiler": "node workbench.dist/workbench.supervisor.profiler.js --color",
+    "tester": "node ./workbench.dist/workbench.supervisor.tester.js --color",
+    "compiler": "node node_modules/typescript/bin/tsc",
+    "develop": "node node_modules/gulp/bin/gulp.js --color -- develop-watch"
+  },
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "author": "al-lopes",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^9.6.5",
+    "chalk": "^2.4.0",
+    "gaze": "^1.1.2",
+    "jest": "^22.4.3",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-lopes/Typescript-Gist-Workbench.git"
+  },
+  "bugs": {
+    "url": "https://github.com/al-lopes/Typescript-Gist-Workbench/issues"
+  },
+  "homepage": "https://github.com/al-lopes/Typescript-Gist-Workbench#readme"
+}
